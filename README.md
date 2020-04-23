@@ -9,7 +9,9 @@ and save the data as a new resource.
 
 ## Requirements
 
-1. Create a model named `MonitoredInterface` with the following fields:
+1. Fork this project.
+
+2. Create a model named `MonitoredInterface` with the following fields:
 
     - external_id
         ```
@@ -42,7 +44,4 @@ and save the data as a new resource.
  2. Create a Django command that sends HTTP requests to each of the base URLs (found in `.env.example`) and
     creates or updates `MonitoredInterface` records with the results.
     
- 3. Push your changes to a new branch. The branch name should consist of your first initial prepended to your
-    last name. e.g. `nmalacarne`
-    
- 4. Open a merge request against the `master` branch once you are finished.
+ 3. Open a merge request once you are finished.
