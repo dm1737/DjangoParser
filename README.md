@@ -7,7 +7,7 @@
 Create an Django command that will pull hardware data from two separate HTTP endpoints 
 and save the data as a new resource.
 
-## Requirements
+## Instructions
 
 1. Fork this project.
 
