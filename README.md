@@ -2,6 +2,8 @@
 
 ## Python 3.7.5
 
+The command is called getInterfaces and can be called with python manage.py getInterfaces
+
 ## Description
 
 Create an Django command that will pull hardware data from two separate HTTP endpoints 
@@ -41,7 +43,7 @@ and save the data as a new resource.
       
     The `mac_address` and `interface_name` should be unique together.
       
- 2. Create a Django command that sends HTTP requests to each of the base URLs (found in `.env.example`) and
+ 3. Create a Django command that sends HTTP requests to each of the base URLs (found in `.env.example`) and
     creates or updates `MonitoredInterface` records with the results.
     
- 3. Open a merge request once you are finished.
+ 4. Open a merge request once you are finished.
