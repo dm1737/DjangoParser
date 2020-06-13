@@ -13,14 +13,17 @@ def parse2(data):
         
         for j in splt2:
             if 'mac_address' in j:
+                #pulls out mac address and strips quotes
                 temp = j.split(':')
                 mac = temp[1]
                 mac = mac.strip('"')
             if 'name' in j:
+                #pulls out interface name and strips quotes
                 temp = j.split(':')
                 inter = temp[1]
                 inter = inter.strip('"')
             if 'ipv4' in j:
+                #pulls out ipv4 address and strips quotes
                 temp = j.split(':')
                 addr = temp[1]
                 addr = addr.strip('"')
